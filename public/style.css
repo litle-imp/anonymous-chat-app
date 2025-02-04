@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.hidden {
+    display: none;
+}
+
+#start-page, #waiting-page, #chat-page {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#messages {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#message-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
